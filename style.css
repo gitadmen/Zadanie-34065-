@@ -1,19 +1,105 @@
-
+*{
+  position: fixed;
+  visibility: hidden
+}
 
 .animation {
   height: 300px;
   width: 600px;
   background-color: black;
   color: white;
-  font-size: 40px;
+  font-size: 100px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  visibility: visible;
 }
 
-.position {
-  position: fixed;
+.number {
   font-size: 200px;
+}
 
+
+/* --------------------------------------------------------- */
+
+@keyframes fadein {
+  
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.2;
+    visibility: hidden;
+  }
+}
+
+
+.animate1{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+.animate2{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+.animate3{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 3s;
+}
+.animate4{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 4s;
+}
+.animate5{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 5s;
+}
+.animate6{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 6s;
+}
+.animate7{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 7s;
+}
+.animate8{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 8s;
+}
+.animate9{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 9s;
+}
+.animate10{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 10s;
+}
+.animatetext{
+  animation-name: fadein;
+  animation-duration: 5s;
+  animation-delay: 11s;
 }
