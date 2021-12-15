@@ -1,0 +1,19 @@
+
+
+.animation {
+  height: 300px;
+  width: 600px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position {
+  position: fixed;
+  font-size: 200px;
+
+}
